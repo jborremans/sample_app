@@ -36,3 +36,10 @@ end
 group :production do
   gem 'pg', '0.12.2'
 end
+# Test gems on Macintosh OS X
+group :test do
+  gem 'rspec-rails', '2.9.0'
+  gem 'capybara', '1.1.2'
+  gem 'rb-fsevent', '0.4.3.1', :require => false
+  gem 'growl', '1.0.3'
+end
